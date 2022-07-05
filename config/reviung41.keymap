@@ -35,7 +35,7 @@ led_strip: ws2812@0 {
                    LED_COLOR_ID_BLUE>;
 };
 };
-/ {
+{
    chosen {
       zmk,underglow = &led_strip;
    };
