@@ -43,7 +43,7 @@ led_strip: ws2812@0 {
 /*
  * Temporarily here because nice nano v2 spi is not defined on ZMk YET
  */
-/ {
+ {
         keymap {
                 compatible = "zmk,keymap";
                 default_layer {
